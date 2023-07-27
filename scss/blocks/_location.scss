@@ -1,8 +1,25 @@
 .location {
+    padding-top: 160px;
+
+    &__container {
+        display: flex;
+        justify-content: space-between;
+    }
+
     &__title {
+        margin-bottom: 27px;
+        margin-top: 40px;
         color: var(--title-color);
         font-family: "Space Mono";
         font-size: 24px;
         font-weight: 700;
+    }
+
+    &__text {
+        max-width: 350px;
+        color: var(--text-color);
+        font-family: "Lexend Deca";
+        font-size: 15px;
+        line-height: 25px;
     }
 }

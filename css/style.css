@@ -338,6 +338,7 @@ body {
   font-family: "Space mono", "Arial", sans-serif;
   font-size: 16px;
   line-height: 1.2;
+  overflow-x: hidden;
 }
 
 img {
@@ -482,11 +483,28 @@ p {
   height: 53px;
   border: none;
   margin-bottom: 152px;
+  margin-left: 100px;
 }
 
+.location {
+  padding-top: 160px;
+}
+.location__container {
+  display: flex;
+  justify-content: space-between;
+}
 .location__title {
+  margin-bottom: 27px;
+  margin-top: 40px;
   color: var(--title-color);
   font-family: "Space Mono";
   font-size: 24px;
   font-weight: 700;
+}
+.location__text {
+  max-width: 350px;
+  color: var(--text-color);
+  font-family: "Lexend Deca";
+  font-size: 15px;
+  line-height: 25px;
 }/*# sourceMappingURL=style.css.map */

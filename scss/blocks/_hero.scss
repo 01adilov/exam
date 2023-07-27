@@ -22,12 +22,14 @@
         margin-top: 40px;
         margin-bottom: 40px;
         position: relative;
+
         &::before {
             content: url(../../img/стрелка.1.svg);
             position: absolute;
             top: 24px;
             left: -257px;
         }
+
         &::after {
             content: url(../../img/стрелка.svg);
             position: absolute;
@@ -35,8 +37,10 @@
             left: 440px;
         }
     }
+
     &__btn {
         @include brand-btn;
         margin-bottom: 152px;
+        margin-left: 100px;
     }
 }
