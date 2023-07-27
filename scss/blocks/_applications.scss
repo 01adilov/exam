@@ -1,0 +1,29 @@
+.applications {
+    background-image: url(../../img/applicate.png);
+
+    &__wrapper {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    &__title {
+        padding-top: 102px;
+        padding-bottom: 77px;
+        max-width: 445px;
+        color: #FFF;
+        font-family: "Space Mono";
+        font-size: 48px;
+        font-weight: 700;
+    }
+    @media only screen and (max-width: 768px) {
+        &__wrapper {
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+        }
+        &__img {
+            padding-bottom: 62px;
+        }
+    }
+}

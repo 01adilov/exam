@@ -1,0 +1,14 @@
+.footer {
+    padding-top: 36px;
+    padding-bottom: 36px;
+    background-color: #333A44;
+    &__wrapper {
+        display: flex;
+        justify-content: space-between;
+    }
+    &__img {
+        &:hover {
+            opacity: 0.6;
+        }
+    }
+}

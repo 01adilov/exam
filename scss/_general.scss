@@ -16,6 +16,14 @@ html {
     width: 180px;
     height: 53px;
     border: none;
+    &:hover {
+      border: 1px solid var(--bg-color-btn);
+      color: var(--bg-color-btn);
+      background-color: #fff;
+    }
+    &:active {
+      opacity: 0.6;
+    }
   } 
   *,
   *::before,
@@ -35,6 +43,7 @@ html {
     font-size: 16px;
     line-height: 1.2;
     overflow-x: hidden;
+    
   }
   
   img {
@@ -58,4 +67,7 @@ html {
   h6,
   p {
     margin: 0;
+    &:hover {
+      cursor: pointer;
+    }
   }

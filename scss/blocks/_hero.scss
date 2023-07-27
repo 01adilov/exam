@@ -43,4 +43,32 @@
         margin-bottom: 152px;
         margin-left: 100px;
     }
+
+    @media only screen and (max-width: 768px) {
+        &__title {
+            margin: 0 auto;
+            text-align: center;
+            margin-bottom: 24px;
+        }
+
+        &__text {
+            margin: 0 auto;
+            text-align: center;
+
+            &::before {
+                display: none;
+            }
+
+            &::after {
+                top: 175px;
+                left: -285px;
+            }
+        }
+
+        &__btn {
+            margin-top: 32px;
+            margin-bottom: 217px;
+            margin-left: 265px;
+        }
+    }
 }
