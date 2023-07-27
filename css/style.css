@@ -507,4 +507,33 @@ p {
   font-family: "Lexend Deca";
   font-size: 15px;
   line-height: 25px;
+}
+
+.about {
+  padding-top: 266px;
+}
+.about__title {
+  max-width: 475px;
+  color: var(--title-color);
+  font-family: "Space Mono";
+  font-size: 48px;
+  font-weight: 700;
+}
+.about__text {
+  margin-top: 24px;
+  margin-bottom: 40px;
+  max-width: 445px;
+  color: var(--text-color);
+  font-family: "Lexend Deca";
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 25px;
+}
+.about__btn {
+  background-color: var(--bg-color-btn);
+  color: white;
+  width: 180px;
+  height: 53px;
+  border: none;
 }/*# sourceMappingURL=style.css.map */
