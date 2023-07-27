@@ -1,0 +1,36 @@
+.header {
+    padding-top: 36px;
+    padding-bottom: 35px;
+    &__nav {
+        display: flex;
+        justify-content: space-between;
+
+        &__list {
+            display: flex;
+            align-items: center;
+
+            &__item {
+                &-link {
+                    color: var(--text-color);
+                    font-family: "Space Mono";
+                    font-size: 15px;
+                    font-weight: 700;
+                    margin-right: 32px;
+
+                    &--active {
+                        margin-right: 0;
+                    }
+                }
+            }
+        }
+    }
+
+    &__btn {
+        @include brand-btn;
+    }
+
+    &__img {
+        vertical-align: middle;
+        margin-right: 59px;
+    }
+}

@@ -1,0 +1,42 @@
+.hero {
+    background-image: url(../../img/hero__bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    &__title {
+        max-width: 515px;
+        color: #FFF;
+        font-family: "Space Mono";
+        font-size: 56px;
+        font-weight: 700;
+        padding-top: 153px;
+    }
+
+    &__text {
+        max-width: 405px;
+        margin-left: 100px;
+        color: #FFF;
+        font-family: "Lexend Deca";
+        font-size: 15px;
+        font-weight: 400;
+        margin-top: 40px;
+        margin-bottom: 40px;
+        position: relative;
+        &::before {
+            content: url(../../img/стрелка.1.svg);
+            position: absolute;
+            top: 24px;
+            left: -257px;
+        }
+        &::after {
+            content: url(../../img/стрелка.svg);
+            position: absolute;
+            top: 24px;
+            left: 440px;
+        }
+    }
+    &__btn {
+        @include brand-btn;
+        margin-bottom: 152px;
+    }
+}
