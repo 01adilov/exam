@@ -112,25 +112,4 @@
     &__img {
         border-radius: 50%;
     }
-    @media only screen and (max-width: 768px) {
-            &::before, &::after{
-                display: none;
-
-              }
-        &__wrapper , &__wrapper__second {
-            display: flex;
-            flex-direction: column;
-        }
-        h2,p {
-            text-align: center;
-        }
-        
-        &__btn {
-           margin-left: 145px;
-           margin-bottom: 56px;
-        }
-    }
-    &__left {
-        order: 2;
-    }
 }

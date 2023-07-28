@@ -689,25 +689,6 @@ p:hover {
 .about__img {
   border-radius: 50%;
 }
-@media only screen and (max-width: 768px) {
-  .about::before, .about::after {
-    display: none;
-  }
-  .about__wrapper, .about__wrapper__second {
-    display: flex;
-    flex-direction: column;
-  }
-  .about h2, .about p {
-    text-align: center;
-  }
-  .about__btn {
-    margin-left: 145px;
-    margin-bottom: 56px;
-  }
-}
-.about__left {
-  order: 2;
-}
 
 .applications {
   background-image: url(../../img/applicate.png);
